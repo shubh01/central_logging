@@ -1,0 +1,8 @@
+Spring application to log private methods with the help of LWT(Load Time Weaving) and AOP.
+
+To run the application, add javaagent in JVM argument:
+
+-javaagent:path to directory/aspectjweaver-1.9.1.jar 
+-javaagent:path to directory/spring-instrument-5.0.9.RELEASE.jar
+
+Both the jars are present in root direcotry of the project.
